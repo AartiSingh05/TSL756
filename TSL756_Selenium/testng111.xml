@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests">
+<parameter name ="browser" value="chrome"></parameter>
+  <test name="CookieTest">
+    <classes>
+      <class name="day5.CookieTest"/>
+       </classes>
+  </test> <!-- CookieTest -->
+  
+  
+   <test name="Scrolling">
+   <parameter name ="browser" value="firefox"></parameter>
+    <classes>
+       <class name="day5.Scrolling"/>
+    </classes>
+  </test> <!-- Scrolling -->
+  
+  
+   <test name="OracleCookie">
+   <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="day5.OracleCookie"/>
+       </classes>
+  </test> <!-- OracleCookiet -->
+  
+   <test name="AlertExample">
+   <parameter name ="browser" value="firefox"></parameter>
+    <classes>
+       <class name="day5.AlertExample"/>
+    </classes>
+  </test> <!-- AlertExample -->
+  
+   <test name="dependsExample">
+   <parameter name ="browser" value="chrome"></parameter>
+    <classes>
+      <class name="day6.dependsExample"/>
+      
+    </classes>
+  </test> <!-- dependsExample -->
+</suite> <!-- Suite -->

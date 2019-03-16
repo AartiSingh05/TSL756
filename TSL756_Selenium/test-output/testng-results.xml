@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13932" started-at="2019-03-14T10:58:28Z" finished-at="2019-03-14T10:58:42Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="7153" started-at="2019-03-14T10:58:28Z" finished-at="2019-03-14T10:58:35Z">
+      <class name="day7.GridExample">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String)[pri:0, instance:day7.GridExample@675d3402]" name="BeforeTest" is-config="true" duration-ms="3271" started-at="2019-03-14T16:28:28Z" finished-at="2019-03-14T16:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:day7.GridExample@675d3402]" name="f" duration-ms="3686" started-at="2019-03-14T16:28:32Z" finished-at="2019-03-14T16:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:day7.GridExample@675d3402]" name="AfterTest" is-config="true" duration-ms="192" started-at="2019-03-14T16:28:35Z" finished-at="2019-03-14T16:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- day7.GridExample -->
+    </test> <!-- ChromeTest -->
+    <test name="FFTest" duration-ms="13932" started-at="2019-03-14T10:58:28Z" finished-at="2019-03-14T10:58:42Z">
+      <class name="day7.GridExample">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String)[pri:0, instance:day7.GridExample@5b275dab]" name="BeforeTest" is-config="true" duration-ms="9151" started-at="2019-03-14T16:28:28Z" finished-at="2019-03-14T16:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:day7.GridExample@5b275dab]" name="f" duration-ms="3344" started-at="2019-03-14T16:28:37Z" finished-at="2019-03-14T16:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:day7.GridExample@5b275dab]" name="AfterTest" is-config="true" duration-ms="1437" started-at="2019-03-14T16:28:41Z" finished-at="2019-03-14T16:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- day7.GridExample -->
+    </test> <!-- FFTest -->
+  </suite> <!-- Suite -->
+</testng-results>

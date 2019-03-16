@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="FFTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day7.GridExample">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="f"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- day7.GridExample -->
+    </classes>
+  </test> <!-- FFTest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day7.GridExample">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="f"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- day7.GridExample -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+URL = http://seleniumhq.org
+implicitwait=30
+
+e_download = //*[text()='Download']_xpath
